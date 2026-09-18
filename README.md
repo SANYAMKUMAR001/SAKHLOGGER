@@ -125,9 +125,11 @@ Use this project only on systems for which you have **explicit authorization**.
 
 ## 📄 Documentation
 
-Detailed technical analysis and project documentation are available in:
+## 🔗 📄 Documentation
 
-SAKHLOGGER_Project_Report.pdf
+Detailed technical analysis and project documentation are available here:
+
+👉 **[📄 View SAKHLOGGER Project Report](SAKHLOGGER_Project_Report.pdf)**
 
 ---
 
