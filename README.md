@@ -2,11 +2,9 @@
 
 ### Windows Cybersecurity Research & Learning Project
 
-🔐 SAKHLOGGER — A Python-based Windows Keylogger developed for cybersecurity research and ethical security education. This project explores keyboard-event monitoring, Windows APIs, local data handling, and security implications in controlled lab environments.
+**SAKHLOGGER** is a Python-based Windows Keylogger developed as a cybersecurity research and educational project. It explores keyboard-event monitoring, Windows APIs, local data handling, system information, SMTP concepts, and Windows application packaging.
 
-
-> ⚠️ **Educational & Authorized-Testing Notice:**
-> This project is intended strictly for cybersecurity education, controlled laboratory environments, and systems where explicit authorization has been obtained. Keyboard monitoring and data transmission can expose highly sensitive information. Do not use this project against other people, devices, accounts, or networks without permission.
+> ⚠️ **Ethical Use Notice:** This project is intended only for authorized cybersecurity research, education, and controlled laboratory environments. Never use monitoring functionality on systems or users without explicit permission.
 
 ---
 
@@ -14,215 +12,122 @@
 
 **SANYAM KUMAR**
 
-Cybersecurity Student | Python | Windows Security | VAPT & Security Research
+Cybersecurity Student | Security Research | Python | Windows Security
 
 ---
 
-## 🎯 Project Objective
+## 🎯 Project Overview
 
-The primary objective of SAKHLOGGER is to understand Windows-specific programming and cybersecurity concepts through a controlled research project.
+SAKHLOGGER was created to study how Python can interact with Windows-specific components and security-related mechanisms.
 
-The project explores:
+### 🔍 Key Areas
 
-* 🐍 Python-based Windows automation
-* ⌨️ Keyboard-event handling concepts
-* 🪟 Windows Registry interaction
-* 🔒 Process synchronization
+* ⌨️ Keyboard-event monitoring
+* 🪟 Windows API interaction
 * 📁 Local file handling
 * 🖥️ System information collection
-* 📧 SMTP communication concepts
-* 📦 PyInstaller application packaging
-* 🧵 Thread-safe event processing
-* 🔍 Security and privacy implications of monitoring software
+* 🔐 Windows Registry concepts
+* 🧵 Thread synchronization
+* 📧 SMTP & STARTTLS concepts
+* 📦 PyInstaller packaging
+* 🛡️ Cybersecurity and privacy implications
 
 ---
 
-## 🛠️ Technologies & Tools
+## 🛠️ Technologies Used
 
-| Technology / Tool | Purpose                           |
-| ----------------- | --------------------------------- |
-| 🐍 Python         | Application logic and automation  |
-| `keyboard`        | Event-handling research           |
-| `winreg`          | Windows Registry interaction      |
-| `ctypes`          | Windows API interaction           |
-| `threading`       | Thread-safe shared-state handling |
-| `socket`          | Host information                  |
-| `platform`        | Operating-system information      |
-| `smtplib`         | SMTP communication concepts       |
-| 📦 PyInstaller    | Python application packaging      |
-| 🪟 Windows        | Primary target environment        |
-
-The project report identifies these technologies as the major components used in the supplied source material.
+| Technology    | Purpose                      |
+| ------------- | ---------------------------- |
+| 🐍 Python     | Core development             |
+| `keyboard`    | Keyboard-event handling      |
+| `winreg`      | Windows Registry interaction |
+| `ctypes`      | Windows API interaction      |
+| `threading`   | Thread synchronization       |
+| `socket`      | Host information             |
+| `platform`    | System information           |
+| `smtplib`     | SMTP communication           |
+| `PyInstaller` | Windows executable packaging |
+| Windows       | Target environment           |
 
 ---
 
-## 🧩 Project Components
+## 📸 Project Screenshot
 
-### 1. Python Application
-
-The main Python source demonstrates event-driven programming and interaction with Windows-specific functionality.
-
-### 2. Windows Registry
-
-The project studies interaction with the Windows Registry and the concepts behind application startup configuration.
-
-### 3. Event Processing
-
-The project demonstrates how keyboard-event callbacks can translate different event types into readable representations.
-
-### 4. Local File Handling
-
-The project explores writing application-generated data to local files and handling writable locations.
-
-### 5. System Information
-
-The application demonstrates accessing basic host and operating-system information through Python APIs.
-
-### 6. SMTP Concepts
-
-The project includes an educational study of SMTP communication and STARTTLS concepts.
-
-### 7. PyInstaller
-
-The project investigates packaging Python code into a Windows executable using PyInstaller.
+<p align="center">
+  <img src="redacted_SAKHLOGGER 1.png" alt="SAKHLOGGER Project Screenshot" width="850">
+</p>
 
 ---
 
-## 🏗️ Conceptual Architecture
+## 📚 Learning Outcomes
 
-```text
-Windows Environment
-        │
-        ▼
- Python Application
-        │
-        ├── Event Handling
-        │
-        ├── Local File Operations
-        │
-        ├── Windows APIs
-        │
-        ├── System Information
-        │
-        └── Application Packaging
-                │
-                ▼
-             PyInstaller
-```
+Through this project, I explored:
 
----
-
-## 📚 Cybersecurity Concepts Demonstrated
-
-This project provides practical exposure to:
-
-* Event-driven programming
-* Windows Registry concepts
-* Windows API interaction
-* Thread synchronization
-* File I/O
-* SMTP and STARTTLS
+* Python event-driven programming
+* Windows Registry interaction
+* Windows API concepts
+* File I/O and data handling
+* Thread-safe programming
+* SMTP communication
 * System information APIs
-* Windows application packaging
-* Process control
-* Security implications of persistence
-* Privacy risks associated with monitoring software
-* Secure credential-handling considerations
-
-These learning outcomes are documented in the project report.
+* PyInstaller packaging
+* Security and privacy risks associated with monitoring software
 
 ---
 
 ## 🔐 Security & Ethical Considerations
 
-Monitoring software can potentially collect extremely sensitive information such as:
+A keylogger can potentially capture highly sensitive information such as passwords, authentication codes, private messages, and financial information.
 
-* Passwords
-* Authentication codes
-* Private messages
-* Financial information
-* Personal information
+Therefore, this project should only be studied and tested in an **isolated environment with explicit authorization**.
 
-Therefore, any research involving monitoring functionality must be performed only in an **isolated and explicitly authorized environment**.
-
-For safe educational demonstrations, a **visible simulator using synthetic test input** is recommended instead of monitoring real user activity.
+For safe demonstrations, a visible simulator using synthetic test input is recommended.
 
 ---
 
-## 🧪 Recommended Lab Environment
+## 🧪 Recommended Testing Environment
 
-For cybersecurity education, use:
+For cybersecurity learning:
 
-* 🖥️ Dedicated Windows virtual machine
-* 🔒 Isolated test environment
+* 🖥️ Dedicated Windows Virtual Machine
+* 🔒 Isolated laboratory environment
 * 👤 Synthetic test data
-* 🌐 Controlled network
 * 📝 Explicit authorization
-* 🚫 No real credentials or personal information
+* 🚫 No real credentials or private information
 
 ---
 
-## 🚀 Future Development
+## 🚀 Future Improvements
 
-A safer publishable version of the project can focus on:
+Future development can focus on creating a safer educational simulator by:
 
 * Removing global keyboard capture
 * Using synthetic test events
-* Removing hidden execution behavior
+* Removing hidden execution
 * Removing startup persistence
-* Removing outbound transmission
-* Adding visible user consent
-* Adding a clear stop button
-* Adding automated unit tests
+* Removing external data transmission
+* Adding visible consent and status indicators
+* Adding automated testing
+* Improving secure credential handling
 * Adding structured security logging
-* Testing inside an isolated Windows VM
-* Adding code-signing and integrity verification
-
-These changes align with the report's proposed direction for an ethical, publishable version.
-
----
-
-## 📖 Learning Outcomes
-
-Through this project, I explored how different Windows and Python components interact from a cybersecurity perspective.
-
-### Key Takeaways
-
-> **Python + Windows APIs + Event Handling + File I/O + Security Concepts + Application Packaging**
-
-The project also helped demonstrate why monitoring, persistence, credential handling, and data transmission require strong security and ethical controls.
 
 ---
 
 ## ⚠️ Disclaimer
 
-**SAKHLOGGER is a cybersecurity research and educational project.**
+**SAKHLOGGER is an educational cybersecurity research project.**
 
-The author does not encourage unauthorized monitoring, credential collection, privacy invasion, persistence on third-party systems, or unauthorized data transmission.
+The author does not encourage unauthorized monitoring, credential collection, privacy invasion, or unauthorized data transmission.
 
-Use this project only in environments where you have **explicit permission to conduct security testing**.
-
----
-
-## 👨‍💻 About Me
-
-**SANYAM KUMAR**
-
-Cybersecurity Student | Security Research Enthusiast | Python | Windows Security | VAPT
-
-I am interested in learning and researching cybersecurity, defensive security, vulnerability assessment, and security tooling.
+Use this project only on systems for which you have **explicit authorization**.
 
 ---
 
-## ⭐ Project Status
+## 📄 Documentation
 
-**Status:** Educational / Research Project
+Detailed technical analysis and project documentation are available in:
 
-**Platform:** Windows
-
-**Primary Language:** Python
-
-**Focus:** Cybersecurity Learning & Windows Security Research
+**`SAKHLOGGER_Project_Report.pdf`**
 
 ---
 
