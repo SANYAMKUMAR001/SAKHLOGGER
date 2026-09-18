@@ -2,7 +2,8 @@
 
 ### Windows Cybersecurity Research & Learning Project
 
-**SAKHLOGGER** is a Windows-focused cybersecurity learning project developed to study how Python interacts with Windows system components, event handling, local file operations, system information APIs, and application packaging.
+🔐 SAKHLOGGER — A Python-based Windows Keylogger developed for cybersecurity research and ethical security education. This project explores keyboard-event monitoring, Windows APIs, local data handling, and security implications in controlled lab environments.
+
 
 > ⚠️ **Educational & Authorized-Testing Notice:**
 > This project is intended strictly for cybersecurity education, controlled laboratory environments, and systems where explicit authorization has been obtained. Keyboard monitoring and data transmission can expose highly sensitive information. Do not use this project against other people, devices, accounts, or networks without permission.
