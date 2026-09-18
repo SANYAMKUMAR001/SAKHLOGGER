@@ -127,7 +127,7 @@ Use this project only on systems for which you have **explicit authorization**.
 
 Detailed technical analysis and project documentation are available in:
 
-`SAKHLOGGER_Project_Report
+`SAKHLOGGER_Project_Report.pdf
 
 ---
 
