@@ -123,8 +123,6 @@ Use this project only on systems for which you have **explicit authorization**.
 
 ---
 
-## 📄 Documentation
-
 ## 🔗 📄 Documentation
 
 Detailed technical analysis and project documentation are available here:
